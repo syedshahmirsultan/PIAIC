@@ -10,39 +10,40 @@ export default function Home(){
       <h1 className="font-extrabold text-[65px] text-blue-800 ml-[400px] font-sans mt-[-500px]"><strong>Presidential Initiative</strong></h1>
       <h1 className='text-[45px] text-blue-800 ml-[400px] mt-[30px]'>
 for Artificial Intelligence & Computing (PIAIC)</h1>
-<p className="text-[25px] text-blue-800 ml-[400px] mt-[20px] pr-[200px]">The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies. Experts are calling this the 4th industrial revolution. We want Pakistan to become a global hub for AI, data science, cloud native computing, edge computing, blockchain, augmented reality, and internet of things.</p>
+<p className="text-[25px] text-blue-800 ml-[400px] mt-[50px] pr-[200px]">The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies. Experts are calling this the 4th industrial revolution. We want Pakistan to become a global hub for AI, data science, cloud native computing, edge computing, blockchain, augmented reality, and internet of things.</p>
  <div className="mt-[80px] ml-[-20px]"><Button><Link href="https://portal.piaic.org/signup">Enroll now</Link></Button></div> 
  </div>
  <div className="h-[1400px] w-2/2">
   <h1 className=" mt-[50px] text-gray-700 text-[70px] text-center">Available Programs</h1>
-   <div className=" ml-[100px] grid grid-cols-3 grid-rows-2">
-<Link href="/Artificial"> <div className="h-[300px] mt-[50px] w-[400px] bg-black-900 ml-[100px] border-2 border-blue-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
+   <div className=" flex mt-[50px]">
+<Link href="/Artificial"> <div className="h-[300px]  w-[400px] bg-black-900 ml-[100px] border-2 border-blue-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-blue-900">
     </div>
 <h1 className="text-[25px] text-center text-blue-900 mt-[30px] font-bold">Artificial Intelligence</h1>
 </div></Link>
-<Link href="/Web"> <div className="h-[300px]  w-[400px] bg-black-900 mt-[50px] border-2 border-purple-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
+<Link href="/Web"> <div className="h-[300px]  w-[400px] bg-black-900  ml-[100px] border-2 border-purple-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-purple-900"> 
     </div>
 <h1 className="text-[25px] text-center text-purple-900 mt-[30px] font-bold">Web 3.0 and Metaverse developer</h1>
 </div></Link>
  </div>
- <Link href="/Cloud"> <div className="h-[300px] mt-[50px] w-[400px] bg-black-900 border-2 border-green-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
+ <Link href="/Cloud"> <div className="h-[300px] w-[400px] bg-black-900 border-2 ml-[100px] border-green-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-green-900"> 
     </div>
 <h1 className="text-[25px] text-center text-green-900 mt-[30px] font-bold">Cloud Native Computting</h1>
-</div></Link>
-<Link href="/Iot"> <div className="h-[300px]  w-[400px] bg-black-900  mt-[100px] border-2 border-red-700 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
+   </div></Link></div>
+<div className="flex mt-[100px]">
+<Link href="/Iot"> <div className="h-[300px]  w-[400px] bg-black-900   ml-[100px] border-2 border-red-700 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-red-700"> 
     </div>
 <h1 className="text-[25px] text-center text-red-700 mt-[30px] font-bold">Ambient Computting and Iot</h1>
 </div></Link>
-<Link href="/Genomics"> <div className="h-[300px]  w-[400px] bg-black-900 mt-[100px] border-2 border-teal-500 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
+<Link href="/Genomics"> <div className="h-[300px]  w-[400px] bg-black-900 ml-[100px] border-2 border-teal-500 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-teal-500">
     </div>
 <h1 className="text-[25px] text-center text-teal-500 mt-[30px] font-bold">Genomics and Bioinformatics</h1>
 </div></Link>
-<Link href="/Network"> <div className="h-[300px]  w-[400px] bg-black-900 mt-[100px]  border-2 border-pink-600 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
+<Link href="/Network"> <div className="h-[300px]  w-[400px] bg-black-900 ml-[100px] border-2 border-pink-600 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-pink-600"> 
     </div>
 <h1 className="text-[25px] text-center text-pink-600 mt-[30px] font-bold">Network Programmability and Automation </h1>
