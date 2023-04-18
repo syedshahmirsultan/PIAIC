@@ -21,19 +21,18 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
     </div>
 <h1 className="text-[25px] text-center text-blue-900 mt-[30px] font-bold">Artificial Intelligence</h1>
 </div></Link>
-<Link href="/Web"> <div className="h-[200px]  w-[300px] bg-black-900  ml-[50px] border-2 border-purple-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
+<Link href="/Web"> <div className="h-[250px]  w-[350px] bg-black-900  ml-[50px] border-2 border-purple-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-purple-900"> 
     </div>
 <h1 className="text-[25px] text-center text-purple-900 mt-[30px] font-bold">Web 3.0 and Metaverse developer</h1>
 </div></Link>
- </div>
  <Link href="/Cloud"> <div className="h-[250px] w-[350px] bg-black-900 border-2 ml-[50px] border-green-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-green-900"> 
     </div>
 <h1 className="text-[25px] text-center text-green-900 mt-[30px] font-bold">Cloud Native Computting</h1>
    </div></Link>
       </div>
-<div className="flex mt-[100px]">
+<div className="flex mt-[-300px]">
 <Link href="/Iot"> <div className="h-[250px]  w-[350px] bg-black-900   ml-[50px] border-2 border-red-700 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-red-700"> 
     </div>
