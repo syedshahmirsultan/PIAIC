@@ -32,7 +32,7 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
 <h1 className="text-[25px] text-center text-green-900 mt-[30px] font-bold">Cloud Native Computting</h1>
    </div></Link>
       </div>
-<div className="flex mt-[-300px]">
+<div className="flex mt-[100px]">
 <Link href="/Iot"> <div className="h-[250px]  w-[350px] bg-black-900   ml-[50px] border-2 border-red-700 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-red-700"> 
     </div>
