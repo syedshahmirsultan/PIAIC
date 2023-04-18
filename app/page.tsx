@@ -15,37 +15,38 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
  </div>
  <div className="h-[1400px] w-2/2">
   <h1 className=" mt-[50px] text-gray-700 text-[70px] text-center">Available Programs</h1>
-<Link href="/Artificial"> <div className="h-[200px] mt-[150px] w-[400px] bg-black-900 ml-[100px] border-2 border-blue-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
+   <div className="grid grid-cols-3">
+<Link href="/Artificial"> <div className="h-[300px] mt-[150px] w-[400px] bg-black-900 ml-[100px] border-2 border-blue-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-blue-900">
     </div>
 <h1 className="text-[25px] text-center text-blue-900 mt-[30px] font-bold">Artificial Intelligence</h1>
 </div></Link>
-<Link href="/Web"> <div className="h-[300px]  w-[300px] bg-black-900 ml-[200px] mt-[-300px] border-2 border-purple-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
+<Link href="/Web"> <div className="h-[300px]  w-[400px] bg-black-900 ml-[200px] mt-[-300px] border-2 border-purple-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-purple-900"> 
     </div>
 <h1 className="text-[25px] text-center text-purple-900 mt-[30px] font-bold">Web 3.0 and Metaverse developer</h1>
 </div></Link>
  </div>
- <Link href="/Cloud"> <div className="h-[300px]  w-[300px] bg-black-900 ml-[300px] mt-[-980px] border-2 border-green-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
+ <Link href="/Cloud"> <div className="h-[300px]  w-[400px] bg-black-900 ml-[300px] mt-[-980px] border-2 border-green-900 transition duration-150 ease-out transform hover:scale-125 hover:-translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-green-900"> 
     </div>
 <h1 className="text-[25px] text-center text-green-900 mt-[30px] font-bold">Cloud Native Computting</h1>
 </div></Link>
-<Link href="/Iot"> <div className="h-[300px]  w-[300px] bg-black-900 ml-[100px] mt-[100px] border-2 border-red-700 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
+<Link href="/Iot"> <div className="h-[300px]  w-[400px] bg-black-900 ml-[100px] mt-[100px] border-2 border-red-700 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-red-700"> 
     </div>
 <h1 className="text-[25px] text-center text-red-700 mt-[30px] font-bold">Ambient Computting and Iot</h1>
 </div></Link>
-<Link href="/Genomics"> <div className="h-[300px]  w-[300px] bg-black-900 ml-[200px] mt-[-300px] border-2 border-teal-500 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
+<Link href="/Genomics"> <div className="h-[300px]  w-[400px] bg-black-900 ml-[400px] mt-[-300px] border-2 border-teal-500 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-teal-500">
     </div>
 <h1 className="text-[25px] text-center text-teal-500 mt-[30px] font-bold">Genomics and Bioinformatics</h1>
 </div></Link>
-<Link href="/Network"> <div className="h-[300px]  w-[300px] bg-black-900 ml-[300px] mt-[-300px]  border-2 border-pink-600 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
+<Link href="/Network"> <div className="h-[300px]  w-[400px] bg-black-900 ml-[800px] mt-[-300px]  border-2 border-pink-600 transition duration-150 ease-out transform hover:scale-125 hover:translate-y-[50px]">
  <div className="h-[50px] w-2/2 bg-pink-600"> 
     </div>
 <h1 className="text-[25px] text-center text-pink-600 mt-[30px] font-bold">Network Programmability and Automation </h1>
-</div></Link>
+  </div></Link></div>
 <div className=' mt-[200px] bg-teal-500 h-[650px] w-2/2'>
   <h1 className="text-white text-extrabold ml-[45px] text-[60px] font-serif">Image</h1>
   <Image src="/images/panapic.jpg" alt="picture of inaguration of PIAIC" height={500} width={680} className="ml-[50px] mt-[50px]"/>
