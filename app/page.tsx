@@ -46,12 +46,12 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
     </div>
 <h1 className="text-[25px] text-center text-pink-600 mt-[30px] font-bold">Network Programmability and Automation </h1>
 </div></Link>
-<div className=' mt-[200px] bg-teal-500 h-[750px] w-2/2'>
+<div className=' mt-[200px] bg-teal-500 h-[650px] w-2/2'>
   <h1 className="text-white text-extrabold ml-[45px] text-[60px] font-serif">Image</h1>
-  <Image src="/images/panapic.jpg" alt="picture of inaguration of PIAIC" height={500} width={650} className="ml-[50px] mt-[50px]"/>
-   <h1 className="text-black-900 text-[40px] pl-[800px]  mt-[-450px] font-sans font-extrabold]">
+  <Image src="/images/panapic.jpg" alt="picture of inaguration of PIAIC" height={500} width={680} className="ml-[50px] mt-[50px]"/>
+   <h1 className="text-black-900 text-[40px] pl-[760px]  mt-[-450px] font-sans font-extrabold]">
    <strong> President launching PIAIC Website</strong> </h1>
- <p className="text-white text-[25px] text-left pl-[800px] mt-[20px] pr-[20px]">President Dr. Arif Alvi launching the official website of PIAIC on December 9,3018.
+ <p className="text-white text-[25px] text-left pl-[760px] mt-[20px] pr-[20px]">President Dr. Arif Alvi launching the official website of PIAIC on December 9,3018.
   From left to right: Mr. Adil Altaf (Director Panacloud), Mr. Zia Ullah Khan (CEO Panacloud),
   Mr. Hunaid Lakhani (Chancellor Iqra University), President Dr. Arif Alvi, Mr. Sulaiman S. Mehdi (Chairman Pakistan Stock  Exchange)
   , Mr. Zeeshan Hanif (CTO Panacloud), Maulana Bashir Farooqi
