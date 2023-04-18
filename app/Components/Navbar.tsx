@@ -6,14 +6,14 @@ import Link from "next/link";
 export default function Navbar(){
   return(
       <div> 
-          <div className="flex flex-wrap bg-green-900 h-[100px] ">
+          <div className="flex bg-green-900 h-[100px] ">
               <div className="w-full justify-evenly">
                   <Link href="https://web.facebook.com/groups/piaic/?_rdc=1&_rdr">
                       <Image src="/images/piaiclogo.jpg" alt="logo of PIAIC" height={60} width={110}/>
                   </Link></div>
               
-              <div className="flex flex-wrap w-full  text-white text-[30px] ml-[208px] mt-[-109px]  ">
-                      <Link href="/" className="mr-4 mb-4 ml-[60px] hover:text-yellow-600 hover:rotate-360">Home</Link>
+              <div className="flex justify-evenly w-full  text-white text-[30px] ml-[208px] mt-[-109px]  ">
+                      <Link href="/" className="mr-4 mb-4 ml-[10px] hover:text-yellow-600 hover:rotate-360">Home</Link>
                       <Link href="https://portal.piaic.org/signup" className="mr-4 ml-[20px] mb-2 hover:text-yellow-600">Apply</Link>
                       <Link href="/About" className="mr-4 mb-4 ml-[20px]  hover:text-yellow-600">About</Link>
                       <Link href="https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit" className="mr-4 ml-[20px] mb-4 md:mb-0 hover:text-yellow-600">Syllabus</Link>
