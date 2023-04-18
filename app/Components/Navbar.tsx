@@ -12,7 +12,7 @@ export default function Navbar(){
                       <Image src="/images/piaiclogo.jpg" alt="logo of PIAIC" height={60} width={110}/>
                   </Link></div>
               
-              <div className="flex flex-wrap w-full  text-white text-[27px] ml-[150px] mt-[-109px]  ">
+              <div className="flex flex-wrap w-full  text-white text-[27px] ml-[200px] mt-[-109px]  ">
                       <Link href="/" className="mr-2 mb-4 ml-[10px] hover:text-yellow-600 hover:rotate-360">Home</Link>
                       <Link href="https://portal.piaic.org/signup" className="mr-2 ml-[20px] mb-2 hover:text-yellow-600">Apply</Link>
                       <Link href="/About" className="mr-2 mb-4 ml-[20px]  hover:text-yellow-600">About</Link>
