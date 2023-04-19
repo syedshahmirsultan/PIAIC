@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 export default function Home(){
   return(
-    <div className="4000px">
+    <div className="9000px">
       <div className="h-[800px] w-2/2 bg-gray-900/10 pt-[30px] ">
     <Link href="https://en.wikipedia.org/wiki/Arif_Alvi"><Image src="/images/president2.jpg" alt="picture of President" height={800} width={300}  className="mt-[40px] ml-[50px] "/></Link>
       <h1 className="font-extrabold text-[65px] text-blue-800 ml-[400px] font-sans mt-[-500px]"><strong>Presidential Initiative</strong></h1>
