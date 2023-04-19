@@ -1,8 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
+import Footer from '../app/Components/Footer';
 
 export default function Faculty(){
     return(
+        <div>
         <div className="h-[1100px] w-2/2 bg-white">
            <div className="flex mt-[100px]">
         <div className="h-[400px] w-[650px] bg-blue-900 mr-[50px] ml-[50px] ">
@@ -33,7 +35,7 @@ export default function Faculty(){
        <text className="text-[25px] mt-[20px] ml-[40px] text-white ">Teaching TypeScript and Nextjs technologies
        </text>
        </div></div>
-        </div>
+        </div><Footer/></div>
 
         
     )
