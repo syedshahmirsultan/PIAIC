@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Button from '../Components/Button';
+import Footer from '../Components/Footer';
 export default function Iot(){
     return(
         <div>
@@ -8,6 +9,6 @@ export default function Iot(){
         <p className="pt-[10px] text-[25px] ml-[200px] text-white font-extrabold pr-[50px]">A FIFTEEN MONTHS PROGRAM OF IOT AND AMBIENT COMPUTING DESIGNED FOR ABSOLUTE BEGINNERS.</p>
 <br/><p className="text-[25px] ml-[200px] text-white font-extrabold pr-[50px]">GETTING PAKISTAN READY FOR THE NEW ERA OF INTERNET OF THINGS AND AMBIENT COMPUTING.</p>
        <div className="ml-[-150px] mt-[150px]"><Button><Link href="https://portal.piaic.org/signup">Enroll now</Link></Button></div></div>
-        </div>
+        <Footer/></div>
     )
 }
