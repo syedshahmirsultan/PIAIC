@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Button from '../Components/Button';
+import Footer from '../Components/Footer';
 export default function Web(){
     return(
         <div>  <div className="h-[800px] w-2/2 bg-purple-900">
@@ -8,6 +9,6 @@ export default function Web(){
 <br/><p className="text-[25px] ml-[260px] text-white font-extrabold pr-[50px]">GETTING PAKISTAN READY FOR THE NEW ERA OF WEB 3.0 AND METAVERSE.</p>
        <div className="ml-[-50px] mt-[150px]"><Button><Link href="https://portal.piaic.org/signup">Enroll now</Link></Button></div></div>
 
-        </div>
+       <Footer/> </div>
     )
 }
