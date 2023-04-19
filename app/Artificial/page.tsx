@@ -1,5 +1,6 @@
 import Button from "../Components/Button";
 import Link from "next/link";
+import Footer from './app/Components/Footer';
 export default function Artificial(){
     return(
         <div>
@@ -9,6 +10,6 @@ export default function Artificial(){
 <br/><p className="text-[25px] ml-[180px] text-white font-extrabold pr-[50px]">GETTING PAKISTAN READY FOR THE NEW ERA OF COMPUTING ENABLED BY THE RISE OF AI.</p>
        <div className="ml-[-50px] mt-[150px]"><Button><Link href="https://portal.piaic.org/signup">Enroll now</Link></Button></div></div>
      
-        </div>
+       <Footer/> </div>
     )
 }
