@@ -1,5 +1,6 @@
 import Button from '../Components/Button';
 import  Link from 'next/link'
+import Footer from '../Components/Footer';
 export default function Genomics(){
     return(
         <div>
@@ -8,6 +9,6 @@ export default function Genomics(){
         <p className="pt-[10px] text-[25px] ml-[300px] text-white font-extrabold pr-[50px]">A ONE YEAR PROGRAM OF GENOMICS AND BIOINFORMATICS DESIGNED FOR ABSOLUTE BEGINNERS.</p>
 <br/><p className="text-[25px] ml-[280px] text-white font-extrabold pr-[50px]">GETTING PAKISTAN READY FOR THE NEW ERA OF GENOMICS AND BIOINFORMATICS.</p>
        <div className="ml-[-50px] mt-[150px]"><Button><Link href="https://portal.piaic.org/signup">Enroll now</Link></Button></div></div>
-        </div>
+        <Footer/></div>
     )
 }
