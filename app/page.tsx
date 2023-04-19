@@ -69,7 +69,7 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
    <Link href="https://saylaniwelfare.com/en"><Image src="/images/saylani.jpg" height={200} width={500} alt="Logo of Saylani Welfare Trust" 
     className="ml-[600px] mt-[-150px]"/></Link>
 
- </div></div></div>
+ </div><Footer/></div></div>
   
   )
 }
