@@ -1,6 +1,6 @@
 import Button from "../Components/Button";
 import Link from "next/link";
-import Footer from './app/Components/Footer';
+import Footer from '../Components/Footer';
 export default function Artificial(){
     return(
         <div>
