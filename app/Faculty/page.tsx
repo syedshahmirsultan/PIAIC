@@ -9,7 +9,7 @@ export default function Faculty(){
        <Link href="https://www.linkedin.com/in/ziaukhan/?originalSubdomain=pk"><Image src="/images/ziakhanpro.jpg" alt="picture of Zia Khan" height={159} width={149} className=" ml-[180px] rounded-full mt-[20px]"/></Link>
         <text className="text-white text-[35px] mt-[50px] ml-[190px]">Zia Khan</text>
         <div>
-       </div><h1 className="text-[30px] text-black-900 font-extrabold mt-[40px] ml-[110px]">LEAD FACULTY MEMBER</h1>
+       </div><h1 className="text-[30px] text-black-900 font-extrabold mt-[40px] ml-[80px]">LEAD FACULTY MEMBER</h1>
        <text className="pl-[2px] text-[25px] mt-[30px] ml-[80px] text-white">Teaching Web3 and Metaverse technologies</text>
         </div>
         <div className="h-[400px] w-[750px] bg-blue-900  ">
