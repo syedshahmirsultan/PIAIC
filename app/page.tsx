@@ -61,15 +61,15 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
    (Founder Saylani Welfare 
    Trust),
     Mr. Yousuf Lakhani (President Saylani Welfare Trust).</p>
-
+</div>
 <div className="h-[350px] w-2/2 bg-gray-300">
   <h1 className="text-blue-900  font-bold text-center text-[55px] pt-[2px]"><strong>Strategic Partners
     </strong></h1><Link href="https://web.facebook.com/groups/deep.learning.edu/?_rdc=1&_rdr"><Image src="/images/panacloud.jpg" height={100} width={250} alt="Logo of Panacloud" 
     className="ml-[200px] mt-[60px]"/></Link>
    <Link href="https://saylaniwelfare.com/en"><Image src="/images/saylani.jpg" height={200} width={500} alt="Logo of Saylani Welfare Trust" 
     className="ml-[600px] mt-[-150px]"/></Link>
-</div>
- </div></div></div>
+
+ </div><Footer/></div></div>
   
   )
 }
