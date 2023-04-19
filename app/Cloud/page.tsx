@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Button from '../Components/Button';
+import Footer from '../app/Components/Footer';
 export default function Cloud(){
     return(
         <div>
@@ -8,6 +9,6 @@ export default function Cloud(){
         <p className="pt-[10px] text-[25px] ml-[240px] text-white font-extrabold">A ONE YEAR CLOUD COMPUTING PROGRAM DESIGNED FOR ABSOLUTE BEGINNERS.</p>
 <br/><p className="text-[25px] ml-[240px] text-white font-extrabold pr-[50px]">GETTING PAKISTAN READY FOR THE NEW ERA OF MICROSERVICES AND MULTI-CLOUD NATIVE COMPUTING.</p>
        <div className="ml-[-50px] mt-[150px]"><Button><Link href="https://portal.piaic.org/signup">Enroll now</Link></Button></div></div>
-        </div>
+        <Footer/></div>
     )
 }
