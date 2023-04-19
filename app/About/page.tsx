@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from 'next/link';
+import Footer from './app/Components/Footer';
 export default function About(){
-    return(
+    return(<div>
         <div className="h-[2900px] w-2/2 bg-white">
       <Link href="https://en.wikipedia.org/wiki/Arif_Alvi"><Image src="/images/piaica.jpg" alt='president pic' height={200} width={200} className="rounded-full ml-[500px] mt-[50px]"/></Link>
        <h1 className="text-black ml-[500px] text-[47px] mt-[20px]">Dr. Arif Alvi</h1>
@@ -12,5 +13,5 @@ export default function About(){
 Dr. Arif Alvi’s political career commenced with his pro-democracy struggle against the dictatorship of General Ayub Khan. He is a founding member of Pakistan Tehreek-e-Insaf (PTI) that came into being in 1996. He remained a member of the PTI’s Central Executive Committee since its inception and has held the offices of PTI President of Sindh (1997-2001), Central Vice President (2001-2006) and Secretary General (2006-2013). In line with Constitution of Pakistan, he resigned from all the positions of PTI before assuming the prestigious office of the President.</p>
 <p className="p-[20px] mt-[20px] text-black text-[30px] ml-[50px] pr-[100px]">Dr. Arif Alvi’s political career commenced with his pro-democracy struggle against the dictatorship of General Ayub Khan. He is a founding member of Pakistan Tehreek-e-Insaf (PTI) that came into being in 1996. He remained a member of the PTI’s Central Executive Committee since its inception and has held the offices of PTI President of Sindh (1997-2001), Central Vice President (2001-2006) and Secretary General (2006-2013). In line with Constitution of Pakistan, he resigned from all the positions of PTI before assuming the prestigious office of the President.</p>
 <p className="p-[20px] mt-[20px] text-black text-[30px] ml-[50px] pr-[100px]">During his tenure as the Secretary General of the party, Dr. Arif Alvi introduced social media platform in the politics of Pakistan. He was instrumental in holding intra-party election (2012-2013) and enabled millions of party members to digitally participate in the election process. He was elected as member of National Assembly from Karachi in 2013 and 2018 and was instrumental in drafting and the passage of many bills including one on Alternate Dispute Resolution. He also chaired the sub-committee of EVM’s, Digital Identification of voters and voting of overseas Pakistanis. The latter has finally come to fruition. Dr. Arif Alvi has keen interest in education and health sectors. Provision of basic facilities to the common man and uplifting the country’s image are very close to his heart. He considers people of Pakistan as the most precious asset and, therefore, accords special focus to human resource development in the country. He is happily married and has four children.
-</p></div>
+            </p></div><Footer/></div>
     )}
