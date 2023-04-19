@@ -2,7 +2,6 @@ import React from 'react';
 import Button from './Components/Button';
 import Image from 'next/image';
 import Link from 'next/link';
-import Footer from 'Components/Footer';
 export default function Home(){
   return(
     <div className="4000px">
@@ -69,7 +68,7 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
    <Link href="https://saylaniwelfare.com/en"><Image src="/images/saylani.jpg" height={200} width={500} alt="Logo of Saylani Welfare Trust" 
     className="ml-[600px] mt-[-150px]"/></Link>
   
-</div><div><Footer/></div>
+</div>
  </div></div>
   
   )
