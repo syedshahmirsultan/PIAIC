@@ -1,5 +1,6 @@
     import Link from "next/link";
     import Button from "../Components/Button";
+import Footer from '../Components/Footer';
 export default function Network(){
     return(
         <div>
@@ -9,6 +10,6 @@ export default function Network(){
         <p className="pt-[10px] text-[25px] ml-[140px] text-white font-extrabold pr-[50px]">A ONE YEAR PROGRAM OF NETWORK PROGRAMMABILITY AND AUTOMATION DESIGNED FOR ABSOLUTE BEGINNERS.</p>
 <br/><p className="text-[25px] ml-[140px] text-white font-extrabold pr-[50px]">GETTING PAKISTAN READY FOR THE NEW ERA OF NETWORK PROGRAMMABILITY AND AUTOMATION.</p>
        <div className="ml-[-50px] mt-[150px]"><Button><Link href="https://portal.piaic.org/signup">Enroll now</Link></Button></div></div>
-        </div>
+      <Footer/></div>
     )
 }
