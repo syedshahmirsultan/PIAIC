@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Footer from './app/Components/Footer';
+import Footer from '../Components/Footer';
 
 export default function Faculty(){
     return(
