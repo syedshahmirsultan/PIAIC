@@ -5,7 +5,7 @@ export default function Faculty(){
     return(
         <div className="h-[1100px] w-2/2 bg-white">
            <div className="flex mt-[100px]">
-        <div className="h-[400px] w-[750px] bg-blue-900 mr-[50px] ml-[130px] ">
+        <div className="h-[400px] w-[750px] bg-blue-900 mr-[50px] ml-[50px] ">
        <Link href="https://www.linkedin.com/in/ziaukhan/?originalSubdomain=pk"><Image src="/images/ziakhanpro.jpg" alt="picture of Zia Khan" height={159} width={149} className=" ml-[180px] rounded-full mt-[20px]"/></Link>
         <text className="text-white text-[35px] mt-[50px] ml-[190px]">Zia Khan</text>
         <div>
@@ -19,7 +19,7 @@ export default function Faculty(){
        <text className="pl-[2px] text-white text-[25px] mt-[20px] ml-[40px] ">Teaching TypeScript and Nextjs technologies
          </text></div></div>
            <div className="flex mt-[100px]">
-        <div className="h-[400px] w-[750px] bg-blue-900 ml-[130px]  mr-[50px]">
+        <div className="h-[400px] w-[750px] bg-blue-900 ml-[50px]  mr-[50px]">
        <Link href="https://www.linkedin.com/in/adilaltaf/"><Image className="rounded-full mt-[20px] ml-[180px]" src="/images/adilaltafpro.jpg" alt="picture of Adil Altaf" height={159} width={149}/></Link>
         <text className="text-white text-[35px] mt-[50px] ml-[190px]">Adil Altaf</text>
         <h1 className="text-[30px] text-black-900 font-extrabold mt-[20px] ml-[40px]">FULL STACK CLOUD DEVELOPER</h1>
