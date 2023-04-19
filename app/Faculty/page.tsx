@@ -5,7 +5,7 @@ export default function Faculty(){
     return(
         <div className="h-[1100px] w-2/2 bg-white">
            <div className="flex mt-[100px]">
-        <div className="h-[400px] w-[700px] bg-blue-900 mr-[50px] ml-[50px] ">
+        <div className="h-[400px] w-[650px] bg-blue-900 mr-[50px] ml-[50px] ">
        <Link href="https://www.linkedin.com/in/ziaukhan/?originalSubdomain=pk"><Image src="/images/ziakhanpro.jpg" alt="picture of Zia Khan" height={169} width={169} className=" ml-[180px] rounded-full mt-[20px]"/></Link>
         <text className="text-white text-[35px] mt-[50px] ml-[190px]">Zia Khan</text>
         <div>
