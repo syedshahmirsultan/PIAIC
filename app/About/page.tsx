@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from 'next/link';
 export default function About(){
     return(
-        <div className="h-[2700px] w-2/2 bg-white">
+        <div className="h-[2900px] w-2/2 bg-white">
       <Link href="https://en.wikipedia.org/wiki/Arif_Alvi"><Image src="/images/piaica.jpg" alt='president pic' height={200} width={200} className="rounded-full ml-[500px] mt-[50px]"/></Link>
        <h1 className="text-black ml-[500px] text-[47px] mt-[20px]">Dr. Arif Alvi</h1>
        <text className="text-gray-500 ml-[240px] text-[35px] mt-[70px]">President of the Islamic Republic of Pakistan</text>
