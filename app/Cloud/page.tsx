@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Button from '../Components/Button';
-import Footer from '../app/Components/Footer';
+import Footer from '../Components/Footer';
 export default function Cloud(){
     return(
         <div>
