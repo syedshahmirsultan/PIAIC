@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from 'next/link';
 export default function About(){
     return(
-        <div className="h-[2100px] w-2/2 bg-white">
-      <Link href="https://en.wikipedia.org/wiki/Arif_Alvi"><Image src="/images/piaica.jpg" alt='president pic' height={150} width={150} className="rounded-full ml-[800px] mt-[50px]"/></Link>
+        <div className="h-[2600px] w-2/2 bg-white">
+      <Link href="https://en.wikipedia.org/wiki/Arif_Alvi"><Image src="/images/piaica.jpg" alt='president pic' height={200} width={200} className="rounded-full ml-[500px] mt-[50px]"/></Link>
        <h1 className="text-black ml-[750px] text-[47px] mt-[20px]">Dr. Arif Alvi</h1>
-       <text className="text-gray-500 ml-[500px] text-[35px] mt-[70px]">President of the Islamic Republic of Pakistan</text>
-<br/><br/><text className="p-[20px] mt-[50px]  text-black text-[30px] ml-[50px]">Dr. Arif Alvi was sworn in as the 13th President of Islamic Republic of Pakistan on 9th September 2018.</text>
+       <text className="text-gray-500 ml-[200px] text-[35px] mt-[70px]">President of the Islamic Republic of Pakistan</text>
+<br/><br/><p className="p-[20px] mt-[50px]  text-black text-[30px] ml-[50px]">Dr. Arif Alvi was sworn in as the 13th President of Islamic Republic of Pakistan on 9th September 2018.</p>
       <p className="p-[20px] mt-[10px] text-black text-[30px] ml-[50px]">Dr. Arif Alvi was born in 1949 and completed his early education in Karachi. He did his Bachelor of Dental Surgery (BDS) from De’ Montmorency College of Dentistry, Lahore where he was declared the “Best Graduate”. He completed his Masters of Science in the field of Prosthodontics from University of Michigan (1975) and in Orthodontics from University of Pacific, San Francisco (1982). He was awarded fellowship ‘Diplomatic American Board of Orthodontists (1995)’.</p> <p className="p-[20px] mt-[20px] text-black text-[30px] ml-[50px]">President Dr. Arif Alvi has been a renowned professional and has held many important positions in the field of Dentistry. He remained Dean of Orthodontics, College of Physicians and Surgeons of Pakistan, President, Pakistan Dental Association (1997-2001), Pakistan Association of Orthodontists (2005), Asia Pacific Dental Federation (2006-07) and Councilor of the World Dental Federation (2007-2013). Through his sheer hard work in the World Dental Federation, he was able to get the declaration of 20th March as World Oral Health Day. He is also an author of a book, theses, and many articles.</p>
       <p className="p-[20px] mt-[20px] text-black text-[30px] ml-[50px]">
 Dr. Arif Alvi’s political career commenced with his pro-democracy struggle against the dictatorship of General Ayub Khan. He is a founding member of Pakistan Tehreek-e-Insaf (PTI) that came into being in 1996. He remained a member of the PTI’s Central Executive Committee since its inception and has held the offices of PTI President of Sindh (1997-2001), Central Vice President (2001-2006) and Secretary General (2006-2013). In line with Constitution of Pakistan, he resigned from all the positions of PTI before assuming the prestigious office of the President.</p>
