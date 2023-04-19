@@ -52,7 +52,7 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
 <div className=' mt-[200px] bg-teal-500 h-[600px] w-2/2'>
   <h1 className="text-white text-extrabold ml-[45px] text-[60px] font-serif">Image</h1>
   <Image src="/images/panapic.jpg" alt="picture of inaguration of PIAIC" height={500} width={680} className="ml-[50px] mt-[50px]"/>
-   <h1 className="text-black-900 text-[45px] pl-[760px]  mt-[10px] font-sans font-extrabold]">
+   <h1 className="text-black-900 text-[45px] pl-[760px]  mt-[-490px] font-sans font-extrabold]">
    <strong> President launching PIAIC Website</strong> </h1>
  <p className="text-white text-[25px] text-left pl-[760px] mt-[5px] pr-[20px]">President Dr. Arif Alvi launching the official website of PIAIC on December 9,3018.
   From left to right: Mr. Adil Altaf (Director Panacloud), Mr. Zia Ullah Khan (CEO Panacloud),
@@ -61,7 +61,7 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
    (Founder Saylani Welfare 
    Trust),
     Mr. Yousuf Lakhani (President Saylani Welfare Trust).</p>
-</div>
+
 <div className="h-[350px] w-2/2 bg-gray-300">
   <h1 className="text-blue-900  font-bold text-center text-[55px] pt-[2px]"><strong>Strategic Partners
     </strong></h1><Link href="https://web.facebook.com/groups/deep.learning.edu/?_rdc=1&_rdr"><Image src="/images/panacloud.jpg" height={100} width={250} alt="Logo of Panacloud" 
@@ -69,7 +69,7 @@ for Artificial Intelligence & Computing (PIAIC)</h1>
    <Link href="https://saylaniwelfare.com/en"><Image src="/images/saylani.jpg" height={200} width={500} alt="Logo of Saylani Welfare Trust" 
     className="ml-[600px] mt-[-150px]"/></Link>
 </div>
- </div></div>
+ </div></div></div>
   
   )
 }
