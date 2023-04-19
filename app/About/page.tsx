@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link';
-import Footer from './app/Components/Footer';
+import Footer from '../Components/Footer';
 export default function About(){
     return(<div>
         <div className="h-[2900px] w-2/2 bg-white">
